@@ -79,6 +79,21 @@ With curl (examples):
 - `curl http://localhost:3000/counter-increase`
 - `curl http://localhost:3000/counter-reset`
 
+## Running tests
+
+Run:
+`npm test`
+
+## Test coverage
+
+Implemented tests verify:
+
+- counter logic (`read`, `increase`, `reset`)
+- REST endpoints:
+  - `GET /counter-read`
+  - `GET /counter-increase`
+  - `GET /counter-reset`
+
 ## Notes
 
 - Task instructions list Node.js 18 as the tested version.
