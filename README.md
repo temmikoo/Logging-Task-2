@@ -15,10 +15,16 @@ The counter state is stored in-memory:
 - Express 4.18.2
 - Winston 3.11.0
 
+## Development dependencies (tests)
+
+- Mocha 10.2.0
+- Chai 4.3.10
+- Supertest 6.3.4
+
 ## Project structure
 
 - `src/main.js` = starts the server and mounts routes
-- `src/routes.js` = defines HTTP endpoints
+- `src/router.js` = defines HTTP endpoints
 - `src/counter.js` = counter logic (read / increase / reset)
 - `src/logger.js` = Winston logger configuration
 - `rest.http` = example HTTP requests (optional)
